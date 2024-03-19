@@ -1,1 +1,85 @@
 /* Write your CSS here! */
+
+/* Element selector */
+body {
+        /* font-family: Helvetica, Arial, sans-serif; */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-image:  url("https://us.123rf.com/450wm/vectora/vectora2202/vectora220201807/182001024-subtle-grayscale-gray-pattern-background-texture-seamlessly-repetitive-stock-vector-illustration.jpg?ver=6");	
+    background-size: 1000px;
+    margin: 50px;
+    padding: 50px;
+    display: block;
+}
+#mainHeading {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    font-weight: lighter;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:navy;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    height: 30vh; /* Ensure the container takes up the full height of the viewport */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Reset text alignment */
+}
+
+.centered-photo {
+    display: block; /* Ensure it's a block-level element */
+    margin-left: auto; /* Auto margin on left */
+    margin-right: auto; /* Auto margin on right */
+    margin-bottom: 20px;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+footer {
+    text-align: right;
+    font-style: italic;
+}
+/* Class selector
+.funParagraph {
+    color: green;
+    font-style: italic;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+} */
+
+/* <head>
+    <title>My Web Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head> */
